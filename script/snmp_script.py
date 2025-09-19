@@ -182,3 +182,4 @@ def portAlarm():
             # 게이트웨이 스코프에선 아래 메시지 박스가 뜨지 않음 (Vision 전용)
             # system.gui.messageBox(message, "Alarm Notification")
             # → 대안: 태그 알람, 파이프라인, Perspective 메시지 등 사용
+
