@@ -36,7 +36,7 @@ def importDevicesFromCSV():
                 print("Device added:", deviceName)
             except Exception as e:
                 print("Failed to add device:", deviceName, "-", str(e))
-
+                
 def exportDevicesToCSV():
     # 모든 장치 목록 가져오기
     devices = system.device.listDevices()        
