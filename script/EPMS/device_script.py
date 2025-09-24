@@ -238,4 +238,3 @@ def restart(tags):
 		if device:
 			system.util.getLogger('DeviceRestart').info("Restart device : {}".format(device))
 			system.util.invokeAsynchronous(lambda d=device: restart_devices(d))  # 디바이스 재시작이 오래 걸려서 비동기로 실행
-	
